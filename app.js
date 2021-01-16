@@ -1,13 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
+require('dotenv/config');
 const app = express();
 
 app.get('/', (req,res) =>{
 	res.send('hello world');
 });
 
-mongoose.connect('mongodb+srv://zami:zami123456@cluster0.2b1je.mongodb.net/zami?retryWrites=true&w=majority',
+mongoose.connect( process.env.DB_CONNECTION,
 		{ useNewUrlParser: true , useUnifiedTopology: true },
 		() =>{ console.log('Connect to db');}
 	);
