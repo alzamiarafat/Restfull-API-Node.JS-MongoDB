@@ -1,0 +1,23 @@
+{
+  "name": "restfull-api-node.js-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alzamiarafat/Restfull-API-Node.JS-MongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alzamiarafat/Restfull-API-Node.JS-MongoDB/issues"
+  },
+  "homepage": "https://github.com/alzamiarafat/Restfull-API-Node.JS-MongoDB#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
